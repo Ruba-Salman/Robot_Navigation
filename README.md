@@ -1,20 +1,20 @@
 # Robot_Navigation
 In this task, we will use SLAM map that we created before to navigate the robot to a specific point or location.
 
-**The steps taken to accomplish this task:
+**The steps taken to accomplish this task:**
 
-### 1. Open the terminal and type these commands:
-### 2. For Launch Simulation World <br/>
+### Open the terminal to do these steps:
+### 1. For Launch Simulation World <br/>
 
 $ export TURTLEBOT3_MODEL=burger <br/>
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
-### 3. Run Navigation Node <br/>
+### 2. Run Navigation Node <br/>
 
 $ export TURTLEBOT3_MODEL=burger <br />
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
-### 4. Estimate Initial Pose <br/>
+### 3. Estimate Initial Pose <br/>
 
 -From the RViz menu, select 2D Pose Estimate. <br/>
 -Click and drag the large green arrow toward the direction the robot is pointing on the map where the actual robot is positioned. <br/>
