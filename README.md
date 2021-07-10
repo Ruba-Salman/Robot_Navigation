@@ -1,9 +1,8 @@
 # Robot_Navigation
 In this task, we will use SLAM map that we created before to navigate the robot to a specific point or location.
 
-**The steps taken to accomplish this task:**
+**Open the terminal to do these steps:**
 
-### Open the terminal to do these steps:
 ### 1. For Launch Simulation World <br/>
 
 $ export TURTLEBOT3_MODEL=burger <br/>
